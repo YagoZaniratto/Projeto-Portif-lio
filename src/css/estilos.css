@@ -70,9 +70,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     padding: 0 15px;
     max-width: 50%;
+    line-height: 50px;
 
 }
 
@@ -91,7 +92,7 @@ body {
 .home .redes-sociais {
 
     display: flex;
-    gap: 20px;
+    gap: 30px;
 
 }
 
@@ -106,10 +107,33 @@ body {
     transition: 0.3s;
 }
 
-.home .redes-sociais a i:hover {
-    color: #5e5e5e;
-    border: 1px solid #575757;
+.home .redes-sociais a:hover i#whatsapp  {
+    color: #016b1b;
+    border: 1px solid #016b1b;
     transform: scale(1.5);
+}
+
+.home .redes-sociais a:hover i#linked  {
+    color: #0600aa;
+    border: 1px solid #0600aa;
+    transform: scale(1.5);
+}
+
+.home .redes-sociais a:hover i#github  {
+    color: #171515;
+    border: 1px solid #171515;
+    transform: scale(1.5);
+}
+
+.home .redes-sociais a:hover i#insta  {
+    color: #171515;
+    border: 1px solid #cc4b00;
+    transform: scale(1.5);
+    background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
 
 .home .container-foto .foto {
@@ -223,9 +247,7 @@ body {
     transform: scale(1.5);
 }
 
-.projetos .btn-mostrar-projetos.remover {
-    display: none;
-}
+
 
 
 
